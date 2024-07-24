@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    <header class="header-section p-[56px]">
+        <div class="containers">
+            <div class="flex items-center">
+                <img src="./imgs/logo.svg" alt="logo" width="95" height="30">
+                <ul class="flex items-center ml-[795px] gap-[48px]">
+                    <li>
+                        <a class="font-medium size-[20px] leading-[30px] text-color-[black]" href="/" class="">Page</a>
+                    </li>
+                    <li>
+                        <a class="font-medium size-[20px] leading-[30px] text-color-[black]" href="/" class="">Page</a>
+                    </li>
+                    <li>
+                        <a class="font-medium size-[20px] leading-[30px] text-[black]" href="/" class="">Page</a>
+                    </li>
+                    <button class="header__btn w-[99px] p-[14px 24px] bg-black text-[white] rounded-[8px] bg-black-500 hover:bg-black-700 ">Button</button>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section p-[56px]">
+            <div class="containers">
+                <div class="hero mt-[160px] text-center">
+                    <h1 class="hero__title mb-[24px]  font-bold text-light text-[64px] leading-[77.45px] text-[white]">Shop title</h1>
+                    <p class="hero__text mb-[24px] font-medium leading-[36px] text-[white]">Subheading with description of your shopping site</p>
+                    <button class="hero__btn w-[99px] p-[14px 24px] bg-black text-[white] rounded-[8px] bg-black-500 hover:bg-black-700">Button</button>
+                </div>
+            </div>
+        </section>
+        <section class="service-section p-[120px]">
+            <div class="containers">
+                <div class="service">
+                    <h2 class="service__title mb-[32px] font-bold text-light text-[40px] leading-[77.45px]">Heading</h2>
+                    <ul class="service__list flex items-center flex-wrap justify-between gap-y-[35px]">
+                        <li class="service__item">
+                            <img class="rounded-[8px]" src="./imgs/nok.png" alt="nok" width="404" height="244">
+                            <strong class=" mt-[24px] mb-[4px]">Product </strong>
+                            <p class=" mb-[4px]">Description of first product</p>
+                            <strong class="">$10.99</strong>
+                        </li>
+                        <li class="service__item">
+                            <img class="rounded-[8px]" src="./imgs/rediska-2.png" alt="rediska-2" width="404" height="244">
+                            <strong class=" mt-[24px] mb-[4px]">Product </strong>
+                            <p class=" mb-[4px]">Description of first product</p>
+                            <strong class="">$10.99</strong>
+                        </li>
+                        <li class="service__item">
+                            <img class="rounded-[8px]" src="./imgs/bacround-img.png" alt="arbuz" width="404" height="244">
+                            <strong class=" mt-[24px] mb-[4px]">Product </strong>
+                            <p class=" mb-[4px]">Description of first product</p>
+                            <strong class="">$10.99</strong>
+                        </li>
+                        <li class="service__item">
+                            <img class="rounded-[8px]" src="./imgs/qoziqorin-3.png" alt="qoziqorin" width="404" height="244">
+                            <strong class=" mt-[24px] mb-[4px]">Product </strong>
+                            <p class=" mb-[4px]">Description of first product</p>
+                            <strong class="">$10.99</strong>
+                        </li>
+                        <li class="service__item">
+                            <img class="rounded-[8px]" src="./imgs/chirgan-4.png" alt="qovoq" width="404" height="244">
+                            <strong class=" mt-[24px] mb-[4px]">Product </strong>
+                            <p class=" mb-[4px]">Description of first product</p>
+                            <strong class="">$10.99</strong>
+                        </li>
+                        <li class="service__item">
+                            <img class="rounded-[8px]" src="./imgs/gilos-5.png" alt="gilos" width="404" height="244">
+                            <strong class=" mt-[24px] mb-[4px]">Product </strong>
+                            <p class=" mb-[4px]">Description of first product</p>
+                            <strong class="">$10.99</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="heading-section">
+            <div class="containers">
+                <div class="heading">
+                    <h2 class="heading__title mb-[32px] font-bold text-light text-[40px] leading-[77.45px]">Heading</h2>
+                    <ul class="heading__list flex items-center gap-[32px]">
+                        <li class="heading__item">
+                            <img src="./imgs/nok-2.png" alt="nok" class="mb-[24px]" width="735" height="642">
+                            <strong class="">Featured product</strong>
+                            <p class="text-grey-500">Description of featured product</p>
+                            <strong>$10.99</strong>
+                        </li>
+                        <ul>
+                            <li class="service__item">
+                                <img class="rounded-[8px] mb-[24px]" src="./imgs/nok.png" alt="nok" width="420" height="244">
+                                <strong class=" mb-[10px]">Product </strong>
+                                <p class=" mb-[4px]">Description of first product</p>
+                                <strong class="">$10.99</strong>
+                            </li>
+                            <li class="service__item">
+                                <img class="rounded-[8px] mt-[32px]  mb-[24px]" src="./imgs/qoziqorin-3.png" alt="qoziqorin" width="420" height="244">
+                                <strong class=" mb-[10px]">Product </strong>
+                                <p class=" mb-[4px]">Description of first product</p>
+                                <strong class="">$10.99</strong>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer class=" mt-[120px] p-[52px 80px 48px 80px]">
+            <div class="containers">
+                <div class="footer  items-center">
+                    <strong class="">Site name</strong>
+                    <div class="footer__content-list flex items-center ml-[543px]">
+                    <ul  class="">
+                        <li class="footer__item">
+                            <strong>Topic</strong>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Page</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Page</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Page</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Topic</strong>
+                        </li>
+                        <li>
+                            <a href="">Page</a>
+                        </li>
+                        <li>
+                            <a href="">Page</a>
+                        </li>
+                        <li>
+                            <a href="">Page</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Topic</strong>
+                        </li>
+                        <li>
+                            <a href="">Page</a>
+                        </li>
+                        <li>
+                            <a href="">Page</a>
+                        </li>
+                        <li>
+                            <a href="">Page</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

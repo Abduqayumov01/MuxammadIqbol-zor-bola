@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.containers{
+    max-width: 1285px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__btn{
+    padding: 14px 24px;
+}
+.hero-section{
+    background-image: url("../imgs/bacround-img2.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-size: 85%;
+    height: 80vh;
+    background-position: center;
+}
+.hero__btn{
+    padding: 14px 24px;
+}
+.footer__content-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+
+}
